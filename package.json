@@ -1,0 +1,24 @@
+{
+  "name": "@sayhellogmbh/maybe-set-link-target",
+  "version": "1.0.0",
+  "description": "Parses HTML link tag URLs and sets link target to _blank if it's an external link. Requires jQuery.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SayHelloGmbH/npmjs-maybe-set-link-target.git"
+  },
+  "keywords": [
+    "link",
+    "target",
+    "jquery"
+  ],
+  "author": "Say Hello GmbH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SayHelloGmbH/npmjs-maybe-set-link-target/issues"
+  },
+  "homepage": "https://github.com/SayHelloGmbH/npmjs-maybe-set-link-target#readme"
+}
