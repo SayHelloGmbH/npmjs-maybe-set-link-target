@@ -20,6 +20,10 @@ $('a').maybeSetLinkTarget();
 
 ## Changelog
 
+### 1.0.1 2019-02-15
+
+* Fix null matching in URL parsing
+
 ### 1.0.0 2019-01-18
 
 * Initial NPM version

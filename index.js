@@ -2,7 +2,7 @@
  * Parse link URLs and set target to _blank if it's an external link.
  * i.e. not the same website, not javascript, not fancybox etc.
  *
- * @version 2019-01-18
+ * @version 2019-02-15
  * @author Say Hello GmbH
  */
 
@@ -30,6 +30,9 @@
                     (hostname.indexOf(window.location.hostname.replace('www.', '')) < 0) &&
                     (hostname !== '') &&
                     (hostname !== null) &&
+                    (hostname !== 'undefined') &&
+                    (hostname !== 'false') &&
+                    (hostname !== false) &&
                     ((hostname.hash === '') || (hostname.hash === null) || (hostname.hash === undefined)) &&
                     (hostname.indexOf('javascript') !== 0) &&
                     (hostname.indexOf('mailto:') < 0) &&
