@@ -53,7 +53,7 @@
           this.target === ""
         ) {
           this.target = "_blank";
-          this.attr("rel", "noopener");
+          $link.attr("rel", "noopener");
           if (this.className.indexOf("tooltip") < 0) {
             this.title = this.hostname;
           }

@@ -20,6 +20,14 @@ $("a").maybeSetLinkTarget();
 
 ## Changelog
 
+### 1.0.4 2020-03-11
+
+- Fix jQuery error
+
+### 1.0.3 2020-03-11
+
+- Add rel=noopener to links set with blank targets
+
 ### 1.0.2 2020-03-11
 
 - Add rel=noopener to links set with blank targets
