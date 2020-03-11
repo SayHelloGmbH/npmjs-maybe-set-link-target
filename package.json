@@ -1,6 +1,6 @@
 {
   "name": "@sayhellogmbh/maybe-set-link-target",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Parses HTML link tag URLs and sets link target to _blank if it's an external link. Requires jQuery.",
   "main": "index.js",
   "scripts": {
