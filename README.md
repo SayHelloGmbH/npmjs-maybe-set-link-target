@@ -19,6 +19,10 @@ maybeSetLinkTarget(links);
 
 ## Changelog
 
+### 2.1.0 2023-03-08
+
+-   Add dataset attribute to links which have been modified.
+
 ### 2.0.0 2022-05-07
 
 -   Remove jQuery usage, use as ES6 now.
