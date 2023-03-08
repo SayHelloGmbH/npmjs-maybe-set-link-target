@@ -30,6 +30,7 @@ export const maybeSetLinkTarget = links => {
             if (link.className.indexOf('tooltip') < 0 && !link.dataset.tooltip) {
                 link.setAttribute('title', hostname);
             }
+            link.dataset.maybeSetLinkTarget = 'true';
         }
     });
 };
